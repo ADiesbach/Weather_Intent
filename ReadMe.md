@@ -1,7 +1,8 @@
 *** INTENT RECOGNITION PROGRAM: WEATHER AND FACTS ***
 
 Build (from directory): mkdir build && cmake CMakeLists.txt && make
-Run: ./weatherIntent
+Run the code with user input: ./weatherIntent
+Run the unit testing: ./runTests
 
 
 
@@ -18,3 +19,5 @@ Things it does not currently understand:
 	- Numbers with letters to talk about the date eg. 19th, 21st etc (it does work with 19 or 21)
 	- Dates outside of the current month
 	- Capital cities with two words (eg. New York, San Francisco, etc)
+
+It can also effectuate unit testing (see above.)
