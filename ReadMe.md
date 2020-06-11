@@ -1,7 +1,9 @@
 *** INTENT RECOGNITION PROGRAM: WEATHER AND FACTS ***
 
 Build (from directory): mkdir build && cmake CMakeLists.txt && make
+
 Run the code with user input: ./weatherIntent
+
 Run the unit testing: ./runTests
 
 
@@ -13,6 +15,7 @@ Examples of questions it can take:
 	- will it be rainy on the 21 of july
 	- will there be a storm in rome on the 19
 	- weather newyorkcity june 22
+
 You can also ask it for a random fact!
 
 
