@@ -6,18 +6,18 @@ Run the unit testing: ./runTests
 
 
 
-This program can take in a user input asking about the weather (in any city in the world, for any date), and will respond with the extracted intent.
+This program can take in any user input asking about the weather (in any city in the world, for any date), and will respond with the extracted intent.
 
 Examples of questions it can take:
-	- What is the weather tomorrow?
-	- Will it be rainy in lisbon?
-	- Will there be a storm in rome on the 19?
+	- what is the weather tomorrow
+	- will it be rainy on the 21 of july
+	- will there be a storm in rome on the 19
+	- weather newyorkcity june 22
 You can also ask it for a random fact!
 
 
-Things it does not currently understand:
-	- Numbers with letters to talk about the date eg. 19th, 21st etc (it does work with 19 or 21)
-	- Dates outside of the current month
-	- Capital cities with two words (eg. New York, San Francisco, etc)
+Notes:
+	- It does not understand day numbers with letters in them (eg. 19th, 21st) but it does understand just the numbers (eg. 19, 21)
+	- If the city has more than one words, input it with no spaces (eg. san juan -> sanjuan)
 
-It can also effectuate unit testing (see above.)
+It can also effectuate unit testing. The tests are in the file tests/test.cpp
